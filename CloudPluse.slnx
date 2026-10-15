@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="CloudPluse/CloudPluse.pyproj" Type="888888a0-9f3d-457c-b088-3a5042f75d52" Id="bdea45e5-59b6-4b38-96fd-afdb6e06cf60">
+    <Build Project="false" />
+  </Project>
+  <Project Path="PythonTests/PythonTests.pyproj" Type="888888a0-9f3d-457c-b088-3a5042f75d52" Id="78063e34-4a72-42a7-8f83-20df88ce6518">
+    <Build Project="false" />
+  </Project>
+</Solution>
