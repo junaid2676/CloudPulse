@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>bdea45e5-59b6-4b38-96fd-afdb6e06cf60</ProjectGuid>
+    <ProjectGuid>78063e34-4a72-42a7-8f83-20df88ce6518</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Learning Main\CloudPluse.py</StartupFile>
+    <StartupFile>PythonTests.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>CloudPluse</Name>
-    <RootNamespace>CloudPluse</RootNamespace>
-    <TestFramework>Pytest</TestFramework>
+    <Name>PythonTests</Name>
+    <RootNamespace>PythonTests</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,26 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Learning Main\CloudPluse.py" />
-    <Compile Include="OOP Concepts\oop_practice.py" />
-    <Compile Include="OOP Concepts\service.py" />
-    <Compile Include="Learning Main\performance.py" />
-    <Compile Include="Learning Main\response_time_ms.py" />
-    <Compile Include="OOP Concepts\Test files OOP\test_service.py" />
-    <Compile Include="Test Files\test_classify_performance.py" />
-    <Compile Include="Test Files\test_connection_errors.py" />
-    <Compile Include="Test Files\test_failure_types.py" />
-    <Compile Include="Test Files\test_health_report.py" />
-    <Compile Include="Test Files\test_response_time.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="README_CloudPulse.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Learning Main\" />
-    <Folder Include="OOP Concepts\" />
-    <Folder Include="OOP Concepts\Test files OOP\" />
-    <Folder Include="Test Files\" />
+    <Compile Include="PythonTests.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

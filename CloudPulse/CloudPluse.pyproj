@@ -23,6 +23,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Learning Main\CloudPluse.py" />
+    <Compile Include="Learning Main\dashboard.py" />
     <Compile Include="OOP Concepts\oop_practice.py" />
     <Compile Include="OOP Concepts\service.py" />
     <Compile Include="Learning Main\performance.py" />
